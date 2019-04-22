@@ -1,0 +1,100 @@
+﻿// BONGO COWBELLIE GAME TEXT. ENGLISH LANGUAGE
+
+// Symbology information: (to be revised soon)
+// # 		--- > line break
+// \% 		--- > pause in text (use many in a row)			(bugged right now)
+// \&		--- > shake the textbox 
+// [FX] 	--- > font size. 0 is normal, 1 is small, 2 is big	(bugged right now)
+// [TX]  	--- > text effects. 0 is normal, 1 is shaky, 2 is wiggly, 3 is agitated
+// [CX] 	--- > text colour. 0 is white, 1 is green etc.
+// [PXXX]	--- > character portrait. switch depending on the emotion
+
+// Language List (DO NOT TRANSLATE THESE)
+$sys_lang01 English
+//$sys_lang02 日本語
+
+
+
+// UI and System Messages
+
+$TEST TEST DIALOGUE
+
+// Pause Menu
+$sys_ui00 PAUSED
+$sys_ui01 resume
+$sys_ui02 options
+$sys_ui03 stats
+$sys_ui04 quit
+$sys_ui05 back
+$sys_ui06 display
+$sys_ui07 sound
+$sys_ui08 controls
+$sys_ui09 game window: 
+$sys_ui10 windowed
+$sys_ui11 fullScreen
+$sys_ui12 window scale: 
+
+$sys_ui13 start game
+
+$sys_ui16 vsync: 
+$sys_ui17 on
+$sys_ui18 off
+$sys_ui19 brightness/contrast
+$sys_ui20 sfx: 
+$sys_ui21 music: 
+$sys_ui22 restore defaults
+$sys_ui23 edit keyboard
+$sys_ui24 edit controller
+
+$sys_ui25 edit controls
+
+$sys_ui26 edit all
+
+$sys_ui27 load custom
+$sys_ui28 save custom
+$sys_ui29 up
+$sys_ui30 down
+$sys_ui31 left
+$sys_ui32 right
+$sys_ui33 jump
+
+$sys_ui34 shoot
+
+
+$sys_ui36 gamepad: 
+$sys_ui37 alt gamepad
+$sys_ui38 xbox 
+$sys_ui39 rumble:
+$sys_ui40 screenshake:
+
+
+// example dialogue, used for tutorial stages. This dialogue is just a test and is to be replaced as soon as possible.
+
+//example_dia01 [T0][P000]You have [C1][T1]$[C0][T0] coins!
+
+//example_dia02 [F0][P000][C0][T0]Hey -\% here's an [C1][T2]example[C0][T0] of a textbox.\%# [F0][P000][C0][T0]It contains custom formatting,\% pauses, \%#  along with line changes and -\%# [F1]Oops,\% inside voice!\% Inside voice!
+//example_dia03 [P001]\%[F2][C:0]\&[T1]HEY!\%\& COME BACK!\%\%[T0]# # [F1]\%.\%.\%.\% [P002]I don't like being ignored...
+//example_dia04 [P000][C0][T0]I can't see another way around...\%# Try using the [C3][T2]X button[T0][C0] to roll through.
+//example_dia05 [P000][C0][T0]You can hold the [C3][T3]X button[T0][C0] to run.\%# Don't stop now!
+//example_dia06 Hold DOWN in midair to ground pound.# Not for use around glass or chinaware.
+//example_dia07 It's dangerous to go alone.# Use the R button to fly to safety.
+
+
+// SCENE 5?: EMERGE IN WASTELAND
+
+// set up: grunty sends a note about tooty's ransom
+
+iWastes01 iWastes02 noscript [P004]THIS IS MESSED UP...|# TRUST THESE GUYS TO TAKE THINGS TOO FAR...
+iWastes02 iWastes03 noscript [P004][T0][C0]ONE THING TO HIT THE SUPPLY,| BUT [C3][T2]RANSOM?[T0][C0]|
+iWastes03 iWastes04 noscript [P000]...
+iWastes04 0 noscript [P004]IT'S COOL BIG GUY,| SAVE YOUR BREATH.|# JUST DRIVE.| I'LL RIDE SHOTGUN.
+
+
+
+//iWastes01 iWastes02 noscript [P004][T0]Remind me [C3][T2]where[T0][C0] we're going again?
+//iWastes02 iWastes03 noscript [P000]Must've been a wrong turn back there.|# Come on,| we'll take a quick detour.
+//iWastes03 iWastes04 noscript [P004]Detour?| You’ve been flying this route since your# third nameday,| bird.| What's going on?
+//iWastes04 iWastes05 noscript [P000]To be fair,| I wasn't working alone for most of them...
+//iWastes05 iWastes06 noscript [P000]Maybe I'll scout ahead a bit...
+//iWastes06 iWastes07 noscript [P004]What,| and leave me here alone?|# No,| we're finding this place together.
+//iWastes07 0 noscript [P000]Alright,| alright.

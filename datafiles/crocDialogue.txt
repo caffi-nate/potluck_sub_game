@@ -1,0 +1,83 @@
+//	"Here's the maximum amount of line space we can take up per line"
+//	"No more than this. This example is ~63 chars per line, 191 total"
+// 	Special Characters
+// 	# 		Line Break
+//	|		Pause
+//	% 		Screen Flash + Shake
+//	$		Global Variable change (based on dialogue choices)
+
+
+loadStart testDialogueLoad:
+label intro:
+
+	SPEAKER BOATMAN
+	PORTRAIT BOATMAN
+	
+	"[C0]Oh good,| there you are.||#I worried you'd [C2][T2]chickened out[T0][C0] on the way over,| heheh."	
+	"Hope it's not too tight a squeeze in there for ya.||#The last guy loved to complain 'bout that.|| [T1][C2]Spoilt grub...[T0][C0]"
+	"S'pose you'll be wondering about pay,| huh.||#We handle that on Thursdays -|| Marie will get in touch."
+	
+	"Let's see how today's trip goes first,| eh?||#Dive down and see if you can fetch my [T2][C3]glasses[C0][T0] for me again."
+
+	return
+
+label retrieveGlasses1:
+
+	SPEAKER BONGO
+	PORTRAIT BONGO
+	
+	"Go on,| %[T1]get down there already![T0]||#I can't help you out without [C3][T2]my glasses![C0][T0]"
+
+
+	return
+	
+label retrieveGlasses2:
+
+	SPEAKER BONGO
+	PORTRAIT BONGO
+	
+	"%[T1]What are you waiting for?![T0]|| My [C3][T0]glasses?[C0][T0]||#Don't think I'm paying you for all this messing about!"
+
+	return
+	
+	
+label foundGlasses:
+	"Oh wow,| you found them!|| Thanks!"
+	"[C2].||.||.||[C0]"
+	"[C2]..........................[T1]snrk.[T0][C0]"
+	"[T1]%[C1]Psyche![C0][T0]|| I don't even wear glasses!#||Whoever heard of a fox like that -|you just got goofed!"
+	"New employees test.|| Just checkin' you pay attention to details!||#Congrats,| you passed!"
+	"Now, for the real thing...|| lessee.||#You won't find the next thing I want unless you open a [C3][T2]heavy door[C0][T0] first."
+	"I'm looking for a [C3][T2]weird statue[C0][T0] like...| this.||#Think you can manage that for me?"
+	return
+	
+	
+label findAmulet:
+	"I said a [C3][T2]weird statue[C0][T0].|| Behind a [C3][T2]heavy door.[C0][T0]"
+	"[C2][T1]Sheesh, |Marie.||#Where do you even find this lot...[C0][T0]"
+	
+	return
+	
+label foundAmulet:
+	"Wow,| what?|| It was here all along after-||#I mean.|| Good job!|| You did good,| kid!"
+	"[C2][T1]That must mean the treasure's actually here.||#Maybe this one's a better recruit than your usual,| Marie...[C0][T0]"
+	"Ahem.|| Onto our next task, | I guess?|| This one's not so obscure."
+	"I want you to dive deep and bring back [C3][T2]any treasure you find.[C0][T0]||#It's all fair game now!"
+	"We can negotiate your cut when you're done."
+	"Maybe [C3]two percent[C0] at first since you're new,| you understand.||#That sounds fair,| yes?"
+	"Anyway.|| Hop to it!|| We gotta get out of here [T1][C3]before the stars come out.[T0][C0]||#It's getting late now!"
+	
+	return
+	
+label getMeGold:
+	"Hurry along now!|| Time's a wasting!||#We need to find more gold [T1][C3]before those stars come out![C0][T0]"
+	"I'm sure the [C3][T2]real rare stuff is hidden down the deepest![T0][C0]"
+	
+	return
+	
+label foundGold:
+	"Wow,| nice find!|| Brilliant find!"
+	"Don't slow down now - ||#[C3][T2]dive deep and find me the rarest thing you can![C0][T0]"
+	
+	return
+	

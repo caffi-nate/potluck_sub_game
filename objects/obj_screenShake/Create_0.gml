@@ -1,0 +1,1 @@
+shakeTimer = 30;

@@ -1,0 +1,1 @@
+//draw_text(20,20,sel_force);

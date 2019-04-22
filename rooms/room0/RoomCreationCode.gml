@@ -1,0 +1,1 @@
+//instance_create_depth(0,0,global.instance_depth,obj_display_manager);
