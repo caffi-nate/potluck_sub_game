@@ -373,6 +373,7 @@ if (runDialogue) {
 				process_dialogue_code(currentCode);
 				break;
 			case "]":
+				show_message("no code"); // shouldn't run
 				processingCode = false;
 				break;		
 			default:
@@ -550,3 +551,5 @@ TEXT_ADVANCE = false;
 if (JITTER_TIMEVAR mod JITTER_TEXT_FREAKOUT_TIME == 1)
 	JITTER_TEXT_FREAKOUT_TIME = irandom(8) + 8;
 
+
+draw_text(20,20,processingCode);

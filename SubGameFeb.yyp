@@ -1407,6 +1407,14 @@
             }
         },
         {
+            "Key": "715b980a-f664-4aba-861e-158e0bfaf689",
+            "Value": {
+                "id": "72030a44-ae36-4505-b9f8-143963299d41",
+                "resourcePath": "sprites\\spr_boat1\\spr_boat1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "71805136-c1a5-4f1f-93c9-cc7ac6ffae8e",
             "Value": {
                 "id": "92144743-bd5b-4516-abb0-136234b790cf",

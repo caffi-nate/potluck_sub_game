@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_fox",
     "eventList": [
-        
+        {
+            "id": "f1ec21f4-0b2e-409f-8be3-c81987c69fe2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "fade4d7b-af76-40b3-8165-b0622bba63b7"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
