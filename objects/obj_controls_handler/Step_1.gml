@@ -16,7 +16,23 @@ for (i=0; i<ds_list_size(inputs); i++){
     else {
         //show_message(string(ds_map_find_value(customKeys, INPUT))); // test
 		//if (INPUT != "crossHairLeft" && INPUT != "crossHairRight" && INPUT != "crossHairDown" && INPUT != "crossHairUp")
-        ds_map_replace(inputsDown, INPUT, keyboard_check_direct(ds_map_find_value(customKeys, INPUT)));
+        
+		
+		switch(os_type){
+			default:
+			case os_windows:
+				ds_map_replace(inputsDown, INPUT, keyboard_check_direct(ds_map_find_value(customKeys, INPUT)));
+			
+			break;
+			
+			case os_macosx:
+			ds_map_replace(inputsDown, INPUT, keyboard_check(ds_map_find_value(customKeys, INPUT)));
+			
+			break;
+			
+		}
+		
+		
     }
     // note: macs need a script to check here if using them instead
     
