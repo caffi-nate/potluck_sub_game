@@ -7,8 +7,9 @@
 
 
 //
-layer_x(MOUNTAINS, parallaxVar * view_xview);
+layer_x(MOUNTAINS, parallaxVar * view_xview + 32);
 layer_y(MOUNTAINS, (view_yview + 128));
+layer_y(MOUNTAINS, (view_yview + 0));
 
 
 
