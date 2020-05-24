@@ -28,7 +28,7 @@ surface_resting_y = 0//180//256;
 surface_y = surface_initial_y;
 surface_fade_in = true;
 surface_fade_timer = 0;
-surface_alpha = 0;
+surface_alpha = 1 //0;
 fade_time = 6; // how many frames to fade over. was 10.
 surface_ready = false;
 

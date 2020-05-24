@@ -20,6 +20,8 @@ if (sel_impulse)
 
 if (outlined && !sel_force){
 	with (obj_player){
-		draw_sprite_ext(RT_Button,image_index,x,y - 32, 1, 1, 0, c_white, 1);	
+		var BUTTON_ICON = global.controlMode == controlModes.controller ? RT_Button : spr_keyboard_C;
+		
+		draw_sprite_ext(BUTTON_ICON,image_index,x,y - 32, 1, 1, 0, c_white, 1);	
 	}
 }

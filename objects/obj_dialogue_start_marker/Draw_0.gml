@@ -2,7 +2,10 @@ draw_sprite_ext(sprite_index,image_index,x,y,scale,scale,0,c_white,1);
 
 
 
-
+switch(global.controlMode){
+	case controlModes.controller: sprite_index = spr_Button_A; break;
+	case controlModes.mouseKeyboard: sprite_index = spr_keyboard_X; break;
+}
 
 // bob up and down
 // and maybe spin too

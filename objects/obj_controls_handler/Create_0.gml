@@ -25,10 +25,10 @@ scr_add_input("right", vk_right, gp_lstick_right);
 //scr_add_input("right", vk_right, gp_padr);
 
 
-scr_add_input("LT", ord("S"), gp_shoulderlb);
-scr_add_input("RT", ord("D"), gp_shoulderrb);
+//scr_add_input("LT", ord("S"), gp_shoulderlb);
+scr_add_input("RT", ord("C"), gp_shoulderrb);
 scr_add_input("face1", ord("X"), gp_face1);
-scr_add_input("face2", ord("C"), gp_face2);
+//scr_add_input("face2", ord("C"), gp_face2);
 
 
 directInput = 0; // xbox
@@ -81,7 +81,6 @@ event_perform(ev_alarm,0);// find gamepads again i guess?
 
 cursorPos = 0;
 state = 1; // show inputs
-controlType = "keyboard";
 //controllerSlot = -1;
 
 GAMEPAD_BUTTON = 1;

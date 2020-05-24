@@ -9,7 +9,8 @@ mouse_lastY = window_view_mouse_get_y(0); //mouse_y;
 // gives weird problems either way
 
 if (keyboard_check(vk_anykey) || mouse_check_button(mb_left)){
-	controlType = "keyboard";	
+	//controlType = "keyboard";	
+	global.controlMode = controlModes.mouseKeyboard
 }
 
 var gamepadPressed = false;
@@ -25,4 +26,4 @@ for (i = 0; i < gamepad_button_count(gamepadSlot); i++){
 		}
 	}
 }
-if (gamepadPressed) controlType = "controller";
+if (gamepadPressed) global.controlMode = controlModes.controller;//controlType = "controller";

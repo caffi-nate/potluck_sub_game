@@ -1,7 +1,7 @@
 draw_set_valign(fa_top);
 draw_set_halign(fa_left);
 
-
+var EXIT_WORD = "return";//"endscene";
 
 
 timeVar+= 0.5//0.25;
@@ -189,7 +189,7 @@ if (runDialogue) {
 				advance_dialogue_gridline(GRID_HEIGHT);
 				break;
 		
-			case "return":
+			case EXIT_WORD:
 				// end scene, do not advance. wait until textbox surface is off screen to trigger
 				//if (surface_y >= surface_initial_y)
 					// TODO: close the dialogue box instead and take any necessary actions
@@ -498,16 +498,16 @@ if (runDialogue) {
 			surface_x = approach(surface_x, surface_initial_x, abs(surface_initial_x - surface_ready_x) / fade_time);
 		}
 
-		// prepare for next dialogue box, only if current line is not RETURN.
+		// prepare for next dialogue box, only if current line is not EXIT_WORD.
 		if (surface_x <= surface_initial_x){
 
-			if (FIRSTWORD != "return") surface_fade_in = true;
+			if (FIRSTWORD != EXIT_WORD) surface_fade_in = true;
 			else destroyBox = true;
 		}
 	}
 
 	// destroy after surface draw calls
-	if (OLD_SPEAKER != newSpeaker || FIRSTWORD == "return"){
+	if (OLD_SPEAKER != newSpeaker || FIRSTWORD == EXIT_WORD){
 		surface_fade_in = false;
 	}
 

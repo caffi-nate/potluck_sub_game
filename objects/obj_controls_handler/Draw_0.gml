@@ -22,6 +22,5 @@ if (gamepadSlot != -1){
 	//draw_text(20,140,string(gamepad_axis_value(gamepadSlot,gp_axisrh)));
 	//draw_text(20,160,string(gamepad_axis_value(gamepadSlot,gp_axisrv)));
 }
-//draw_text(20,200,controlType);
 
 

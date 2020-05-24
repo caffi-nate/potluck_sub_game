@@ -62,11 +62,13 @@ audio_group_set_gain(ag_sfx_ambiance,0.01*global.sfxVolume,0);
 
 global.gameTimer = 0;
 global.gameScore = 0;
-global.controlMode = 1; // 1 = mousekeyboard, 2 = controller
+enum controlModes {
+	mouseKeyboard,
+	controller
+}
+global.controlMode = controlModes.mouseKeyboard; // 1 = mousekeyboard, 2 = controller
 global.gameState = 1; // 0 if dead
 global.sleepTimer = 0;
-
-
 
 
 initialise_palette();
