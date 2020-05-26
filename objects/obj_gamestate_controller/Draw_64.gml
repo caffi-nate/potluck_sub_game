@@ -1,4 +1,11 @@
 // draw logo
+if (!windowFocused){
+	// draw a big black box? or a pause surface later, ideally.
+	draw_set_colour(c_black);
+	draw_rectangle(0,0,view_wview,view_hview,false);
+	exit;
+} 
+
 if !surface_exists(logoSurface){
 	logoSurface = surface_create(surfaceWidth,surfaceHeight);	
 }

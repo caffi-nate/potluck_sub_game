@@ -19,9 +19,16 @@ if (sel_impulse)
 
 
 if (outlined && !sel_force){
-	with (obj_player){
-		var BUTTON_ICON = global.controlMode == controlModes.controller ? RT_Button : spr_keyboard_C;
+	//instance_create_depth(x,y -32, global.instance_depth,obj_grab_marker);
+	
+	//with (obj_player){
+	//	var BUTTON_ICON = global.controlMode == controlModes.controller ? RT_Button : spr_keyboard_C;
 		
-		draw_sprite_ext(BUTTON_ICON,image_index,x,y - 32, 1, 1, 0, c_white, 1);	
-	}
+	//	draw_sprite_ext(BUTTON_ICON,image_index,x,y - 32, 1, 1, 0, c_white, 1);	
+	//}
+}
+else {
+	// not a good idea to check this every frame...
+	//if (instance_exists(obj_grab_marker)) 
+	//	with (obj_grab_marker) destroy = true;
 }

@@ -2,7 +2,7 @@
     "id": "cb8e8ae0-5d90-4497-83b1-d587d27ac451",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "RT_Button",
+    "name": "spr_button_R",
     "For3D": false,
     "HTile": false,
     "VTile": false,

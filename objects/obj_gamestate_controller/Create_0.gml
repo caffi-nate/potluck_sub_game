@@ -8,3 +8,4 @@ surfaceHeight = global.gameHeight;
 
 
 
+windowFocused = true;

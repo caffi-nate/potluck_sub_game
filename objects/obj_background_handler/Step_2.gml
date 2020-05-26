@@ -4,12 +4,14 @@
 
 // update to follow the camera
 
+if (live_call()) return live_result;
 
 
 //
-layer_x(MOUNTAINS, parallaxVar * view_xview + 32);
-layer_y(MOUNTAINS, (view_yview + 128));
-layer_y(MOUNTAINS, (view_yview + 0));
+//layer_x(MOUNTAINS, parallaxVar * view_xview + 32);
+layer_x(MOUNTAINS, 1 * view_xview );
+//layer_y(MOUNTAINS, (view_yview ));//+ 128));
+layer_y(MOUNTAINS, (view_yview ));
 
 
 
