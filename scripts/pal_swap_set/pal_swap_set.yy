@@ -1,8 +1,12 @@
 {
-    "id": "3022bb79-5379-4226-9492-c95dd3a958a1",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "pal_swap_set",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "palette swapper",
+    "path": "folders/Scripts/shaders and surfaces/palette swapper.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "pal_swap_set",
+  "tags": [],
+  "resourceType": "GMScript",
 }

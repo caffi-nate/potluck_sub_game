@@ -1,8 +1,12 @@
 {
-    "id": "f26ff1cb-cdea-43b1-985e-a0c4eb636ab7",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "dyliquid_set_tension",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "DyLiquid Water",
+    "path": "folders/Scripts/DyLiquid Water.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "dyliquid_set_tension",
+  "tags": [],
+  "resourceType": "GMScript",
 }

@@ -1,8 +1,12 @@
 {
-    "id": "26e9a313-5265-4ec6-aba2-d72897a88c2e",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "view_update_settings",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "display and UI",
+    "path": "folders/Scripts/display and UI.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "view_update_settings",
+  "tags": [],
+  "resourceType": "GMScript",
 }

@@ -1,8 +1,12 @@
 {
-    "id": "66164941-3bf1-41ad-bcda-e23a3ba67165",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "process_text_grid",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "textfile handling",
+    "path": "folders/Scripts/dialogue/textfile handling.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "process_text_grid",
+  "tags": [],
+  "resourceType": "GMScript",
 }

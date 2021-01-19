@@ -1,8 +1,12 @@
 {
-    "id": "8b211d7a-17f4-4a98-8940-519b770a636c",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "initialise",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "startup and cleanup",
+    "path": "folders/Scripts/startup and cleanup.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "initialise",
+  "tags": [],
+  "resourceType": "GMScript",
 }

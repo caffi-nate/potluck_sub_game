@@ -1,8 +1,12 @@
 {
-    "id": "1058b05a-b87d-4e61-8fdc-699317422088",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "dyliquid_set_spread",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "DyLiquid Water",
+    "path": "folders/Scripts/DyLiquid Water.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "dyliquid_set_spread",
+  "tags": [],
+  "resourceType": "GMScript",
 }

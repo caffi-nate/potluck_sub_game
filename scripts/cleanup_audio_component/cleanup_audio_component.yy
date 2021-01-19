@@ -1,8 +1,12 @@
 {
-    "id": "9e12bbc4-e5dd-44cc-9ff5-da7d7a8aa2a5",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "cleanup_audio_component",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "emitter_component",
+    "path": "folders/Scripts/audio scripts/emitter_component.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "cleanup_audio_component",
+  "tags": [],
+  "resourceType": "GMScript",
 }

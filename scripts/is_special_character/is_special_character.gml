@@ -1,11 +1,15 @@
-var CHARACTER = argument0;
-var IS_SPECIAL_CHARACTER = false;
+function is_special_character(argument0) {
+	var CHARACTER = argument0;
+	var IS_SPECIAL_CHARACTER = false;
 
-if (CHARACTER == "[") ||
-	(CHARACTER == "]") ||
-	(CHARACTER == "|") ||
-	(CHARACTER == "#"){
-	IS_SPECIAL_CHARACTER = true;
+	if (CHARACTER == "[") ||
+		(CHARACTER == "]") ||
+		(CHARACTER == "|") ||
+		(CHARACTER == "#"){
+		IS_SPECIAL_CHARACTER = true;
+	}
+
+	return IS_SPECIAL_CHARACTER;
+
+
 }
-
-return IS_SPECIAL_CHARACTER;

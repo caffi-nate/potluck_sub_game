@@ -1,8 +1,12 @@
 {
-    "id": "f1e5b104-abf4-457f-9369-82d23c173090",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "scr_layer_shader_uniforms",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "startup and cleanup",
+    "path": "folders/Scripts/startup and cleanup.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "scr_layer_shader_uniforms",
+  "tags": [],
+  "resourceType": "GMScript",
 }

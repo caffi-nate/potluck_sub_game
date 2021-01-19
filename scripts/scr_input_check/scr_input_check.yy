@@ -1,8 +1,12 @@
 {
-    "id": "4c2793cf-d4b8-41e2-afe4-2c211bec920f",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "scr_input_check",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "button checks",
+    "path": "folders/Scripts/_controls input dog/button checks.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "scr_input_check",
+  "tags": [],
+  "resourceType": "GMScript",
 }

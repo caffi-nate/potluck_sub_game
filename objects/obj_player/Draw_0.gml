@@ -29,7 +29,7 @@ event_inherited();
 
 
 //draw_text(x,y-50,global.currentlyTalking);
-//draw_text(x,y-50,holding);
+//draw_text(x,y-50,heldItem);
 
 //draw_text(x,y-30,XSCALE);
 

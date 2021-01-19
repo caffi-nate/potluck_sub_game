@@ -1,8 +1,12 @@
 {
-    "id": "1f19492b-49a7-4143-90b5-c8e038e12e77",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "dyliquid_update",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "DyLiquid Water",
+    "path": "folders/Scripts/DyLiquid Water.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "dyliquid_update",
+  "tags": [],
+  "resourceType": "GMScript",
 }

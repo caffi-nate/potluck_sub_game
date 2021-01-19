@@ -26,7 +26,7 @@ if (sel_force  > SEL_FORCE_LAST_FRAME){
 	}
 	
 
-	obj_player.holding = -4;
+	obj_player.heldItem = noone;
 	
 }	
 

@@ -1,8 +1,12 @@
 {
-    "id": "c5603689-3bed-407c-8067-734c2751c7ce",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "resize_text_grid",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "textfile handling",
+    "path": "folders/Scripts/dialogue/textfile handling.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "resize_text_grid",
+  "tags": [],
+  "resourceType": "GMScript",
 }

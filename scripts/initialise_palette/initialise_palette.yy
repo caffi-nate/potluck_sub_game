@@ -1,8 +1,12 @@
 {
-    "id": "57f3df72-8174-46f1-bc72-794f19fbc00b",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "initialise_palette",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "startup and cleanup",
+    "path": "folders/Scripts/startup and cleanup.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "initialise_palette",
+  "tags": [],
+  "resourceType": "GMScript",
 }

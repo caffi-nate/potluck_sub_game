@@ -16,8 +16,9 @@ if (scr_input_check_anybutton()){
 
 
 // only count up after player starts moving
-if (obj_gamestate_controller.PLAYER_MOVEMENT)
-	noInputTimer++;
+if (obj_gamestate_controller.PLAYER_MOVEMENT){
+	if (global.kioskMode) noInputTimer++;
+}
 
 draw_set_alpha(0.75 + sin(global.gameTimer * RADIAN * 5) * 0.25);
 

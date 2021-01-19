@@ -1,8 +1,12 @@
 {
-    "id": "8b1eea03-7220-46ec-912e-85eaf7604ef3",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "draw_perlin_box",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "perlin",
+    "path": "folders/Scripts/perlin.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "draw_perlin_box",
+  "tags": [],
+  "resourceType": "GMScript",
 }

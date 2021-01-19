@@ -1,8 +1,12 @@
 {
-    "id": "e4ea371e-32d7-4a87-9026-b70d1c847308",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "pal_swap_reset",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "palette swapper",
+    "path": "folders/Scripts/shaders and surfaces/palette swapper.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "pal_swap_reset",
+  "tags": [],
+  "resourceType": "GMScript",
 }

@@ -1,8 +1,12 @@
 {
-    "id": "fbb19a8f-2721-4af4-8149-0d7c472cb7b3",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "update_audio_component",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "emitter_component",
+    "path": "folders/Scripts/audio scripts/emitter_component.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "update_audio_component",
+  "tags": [],
+  "resourceType": "GMScript",
 }

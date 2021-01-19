@@ -9,3 +9,7 @@ surfaceHeight = global.gameHeight;
 
 
 windowFocused = true;
+
+
+
+oldTimer = 0;//global.realTimer;

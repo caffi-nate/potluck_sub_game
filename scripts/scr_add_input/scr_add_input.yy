@@ -1,8 +1,12 @@
 {
-    "id": "3a1d6540-7179-4fa2-82ea-76a4561cdd03",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "scr_add_input",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "helper functions",
+    "path": "folders/Scripts/_controls input dog/helper functions.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "scr_add_input",
+  "tags": [],
+  "resourceType": "GMScript",
 }

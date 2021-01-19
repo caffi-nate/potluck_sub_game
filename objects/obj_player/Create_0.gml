@@ -89,7 +89,7 @@ OUTLINECOLOUR = shader_get_uniform(shd_outline,"outlineColor");
 STROKEWIDTH = shader_get_uniform(shd_outline,"strokeWidth");
 
 
-holding = -4;
+heldItem = -4;
 
 noInputTimer = 0;
 noInputThreshold = 60*60; // 60 seconds

@@ -1,8 +1,12 @@
 {
-    "id": "b6f723f5-e5c1-475e-b249-e23de5044364",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "dyliquid_set_wave",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "DyLiquid Water",
+    "path": "folders/Scripts/DyLiquid Water.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "dyliquid_set_wave",
+  "tags": [],
+  "resourceType": "GMScript",
 }

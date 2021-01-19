@@ -2,4 +2,4 @@
 
 
 
-draw_text(20,40,global.controlMode);
+//draw_text(20,40,global.controlMode);

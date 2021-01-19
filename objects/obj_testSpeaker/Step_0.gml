@@ -1,14 +1,5 @@
 update_audio_component();
 
-
-if keyboard_check_pressed(vk_space){
-	//show_debug_message("hello!");
-	//scr_play_sound(sfx_bubbles01,1 + soundPitchOffset + random_range(-0.05,0.05),1,false,myAudioEmitter);
-}	
-
-
-
-
 bubbleTimer++;
 if (bubbleTimer > bubbleThreshold && !bubbling){
 	bubbling = true;

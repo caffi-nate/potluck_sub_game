@@ -27,4 +27,4 @@ image_speed = 2;
 
 draw_sprite_ext(sprite_index,image_index,x,y,scale,scale,0,c_white,1);
 
-show_debug_message(string(scale) + " // " + string(destroy) + " // " + string(get_timer()));
+//show_debug_message(string(scale) + " // " + string(destroy) + " // " + string(get_timer()));

@@ -1,8 +1,12 @@
 {
-    "id": "21c0fa0e-84ad-45c6-8c4f-9cc92927af51",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "dyliquid_spash_column",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "DyLiquid Water",
+    "path": "folders/Scripts/DyLiquid Water.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "dyliquid_spash_column",
+  "tags": [],
+  "resourceType": "GMScript",
 }

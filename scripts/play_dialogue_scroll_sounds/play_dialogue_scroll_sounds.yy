@@ -1,8 +1,12 @@
 {
-    "id": "9041949b-985b-4f89-91da-1c9318d0aa0c",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "play_dialogue_scroll_sounds",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "audio scripts",
+    "path": "folders/Scripts/audio scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "play_dialogue_scroll_sounds",
+  "tags": [],
+  "resourceType": "GMScript",
 }

@@ -20,8 +20,8 @@ if instance_place(x,y,obj_player) && !instance_exists(obj_dialogueManager){
 		
 		
 		var ITEM_MATCH = false;
-		var HOLDING = obj_player.holding;
-		if (HOLDING != -4){
+		var HOLDING = obj_player.heldItem;
+		if (HOLDING != noone){
 			var HELD_OBJECT = (HOLDING.object_index);
 			//show_message(HELD_OBJECT);
 			//show_message(currentObjective);
@@ -34,11 +34,11 @@ if instance_place(x,y,obj_player) && !instance_exists(obj_dialogueManager){
 				}
 				with (HOLDING) instance_destroy();
 				with (obj_desiredObject) instance_destroy();
-				with (obj_player) holding = -4;
+				with (obj_player) heldItem = noone;
 			}
 			//if (object_get_name(HOLDING.object_index) == currentObjective) show_message("match!");
 		}
-		//show_message(object_get_name(obj_player.holding.object_index));
+		//show_message(object_get_name(obj_player.heldItem.object_index));
 		
 		text = instance_create_depth(0,0,0,obj_dialogueManager);
 		with text {

@@ -1,6 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
+if live_call() return live_result;
 
 movementTimer ++;
 
@@ -69,6 +70,7 @@ if (abs(XDIR) + abs(YDIR) > 0){
 	audio_sound_gain(engineSound,engineGain* (1-global.endGameGain), 500);
 }
 else {
+	// TODO: BUG. sometimes doesn't lower
 	audio_sound_gain(engineSound,0,50);	
 }
 	audio_sound_pitch(engineSound,ENGINE_GAIN * 2);
@@ -84,9 +86,9 @@ if scr_input_check_pressed("face1") && !instance_exists(obj_sonarPulse) && !glob
 
 // flip depending on movement direction
 
-if (keyboard_check_pressed(vk_space)){
-	state = states.hurt;	
-}
+//if (keyboard_check_pressed(vk_space)){
+//	state = states.hurt;	
+//}
 
 
 if (state != states.hurt && state != states.endgame) {
@@ -150,8 +152,11 @@ if instance_exists(obj_dialogueManager) global.currentlyTalking = true;
 
 
 
-if (holding != -4){
+if (heldItem != noone){
 	if !instance_exists(obj_sweaty) instance_create_depth(x,y,0,obj_sweaty);	
+	if (abs(XDIR) >= 1 && YDIR <= 0  || // moving sideways but not down
+	vSpeed <= -0.5)	// going straight up
+	sprite_index = spr_playerStress;
 }
 else {
 	if instance_exists(obj_sweaty) with(obj_sweaty) instance_destroy();	

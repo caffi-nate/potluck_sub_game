@@ -1,8 +1,12 @@
 {
-    "id": "a8caba7b-e4eb-4012-8134-e7ab5d0021f0",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "dialogue_exit_find_amulet",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "dialogue exit scripts",
+    "path": "folders/Scripts/dialogue/dialogue exit scripts.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "dialogue_exit_find_amulet",
+  "tags": [],
+  "resourceType": "GMScript",
 }

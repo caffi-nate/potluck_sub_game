@@ -1,4 +1,8 @@
 // draw logo
+
+draw_text(20,20,global.realTimer);
+draw_text(20,40,current_time);
+
 if (!windowFocused){
 	// draw a big black box? or a pause surface later, ideally.
 	draw_set_colour(c_black);

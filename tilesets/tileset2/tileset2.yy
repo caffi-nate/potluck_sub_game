@@ -1,43 +1,45 @@
 {
-    "id": "b1032ac0-34ec-438f-b66a-0692832f10f8",
-    "modelName": "GMTileSet",
-    "mvc": "1.11",
-    "name": "tileset2",
-    "auto_tile_sets": [
-        
+  "spriteId": {
+    "name": "spr_bgTileTest",
+    "path": "sprites/spr_bgTileTest/spr_bgTileTest.yy",
+  },
+  "tileWidth": 64,
+  "tileHeight": 64,
+  "tilexoff": 0,
+  "tileyoff": 0,
+  "tilehsep": 0,
+  "tilevsep": 0,
+  "spriteNoExport": true,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "out_tilehborder": 2,
+  "out_tilevborder": 2,
+  "out_columns": 2,
+  "tile_count": 3,
+  "autoTileSets": [],
+  "tileAnimationFrames": [],
+  "tileAnimationSpeed": 15.0,
+  "tileAnimation": {
+    "FrameData": [
+      0,
+      1,
+      2,
     ],
-    "macroPageTiles": {
-        "SerialiseData": null,
-        "SerialiseHeight": 0,
-        "SerialiseWidth": 0,
-        "TileSerialiseData": [
-            
-        ]
-    },
-    "out_columns": 2,
-    "out_tilehborder": 2,
-    "out_tilevborder": 2,
-    "spriteId": "e9618f79-a6e4-4994-812c-06a867109534",
-    "sprite_no_export": true,
-    "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
-    "tile_animation": {
-        "AnimationCreationOrder": null,
-        "FrameData": [
-            0,
-            1,
-            2
-        ],
-        "SerialiseFrameCount": 1
-    },
-    "tile_animation_frames": [
-        
-    ],
-    "tile_animation_speed": 15,
-    "tile_count": 3,
-    "tileheight": 64,
-    "tilehsep": 0,
-    "tilevsep": 0,
-    "tilewidth": 64,
-    "tilexoff": 0,
-    "tileyoff": 0
+    "SerialiseFrameCount": 1,
+  },
+  "macroPageTiles": {
+    "SerialiseWidth": 0,
+    "SerialiseHeight": 0,
+    "TileSerialiseData": [],
+  },
+  "parent": {
+    "name": "Tile Sets",
+    "path": "folders/Tile Sets.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "tileset2",
+  "tags": [],
+  "resourceType": "GMTileSet",
 }

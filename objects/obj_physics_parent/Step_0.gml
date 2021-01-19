@@ -23,7 +23,7 @@ if (OBJECT_IN_RANGE){
 			sel_force = true;	
 			global.dragging = true;	
 			phy_linear_damping = 10;
-			with (obj_player) holding = other.id;//object_get_name(other.object_index);
+			with (obj_player) heldItem = other.id;//object_get_name(other.object_index);
 		}		
 		with (obj_grab_marker) destroy = true;
 		ICON = true; // don't create any new ones
@@ -33,7 +33,7 @@ if (OBJECT_IN_RANGE){
 		global.dragging = false;
 		phy_linear_damping = 2;
 		GRAB = false;
-		//with (obj_player) holding = -4;	
+		//with (obj_player) heldItem = -4;	
 	}
 	if (!ICON){
 		with (obj_player)
@@ -69,7 +69,7 @@ if (sel_force){
 
 
 if (!GRAB){
-	obj_player.holding = -4;
+	obj_player.heldItem = noone;
 }
 
 

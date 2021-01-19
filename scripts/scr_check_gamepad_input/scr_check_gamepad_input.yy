@@ -1,8 +1,12 @@
 {
-    "id": "16fdc602-f267-4ecd-81c0-d60c3f109b83",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "scr_check_gamepad_input",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "button checks",
+    "path": "folders/Scripts/_controls input dog/button checks.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "scr_check_gamepad_input",
+  "tags": [],
+  "resourceType": "GMScript",
 }

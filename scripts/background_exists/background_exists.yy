@@ -1,8 +1,12 @@
 {
-    "id": "393cc4fa-ab2f-4168-8168-1161aa6564b7",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "background_exists",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "isDnD": false,
+  "isCompatibility": false,
+  "parent": {
+    "name": "background",
+    "path": "folders/Scripts/compatibility/background.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "background_exists",
+  "tags": [],
+  "resourceType": "GMScript",
 }

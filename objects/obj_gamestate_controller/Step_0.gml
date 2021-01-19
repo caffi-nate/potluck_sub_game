@@ -1,4 +1,11 @@
-global.gameTimer++;
+
+//global.realTimer += (delta_time div 1000);
+
+
+oldTimer = global.realTimer;
+
+// we don't really want delta time though... we want to limit to a single frame
+
 
 if (keyboard_check_pressed(vk_escape)){
 	game_restart_ext();
@@ -18,6 +25,8 @@ if (!window_has_focus()){
 
 }
 else {
+	global.gameTimer++;
+	global.realTimer += 16.667;//0.01666;
 	if (!windowFocused){
 			audio_resume_all();
 			instance_activate_all();
